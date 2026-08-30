@@ -1,0 +1,4 @@
+userName = input('Mikä sinun nimesi on? :\n')
+userAge = input('Kuinka vanha olet? :\n')
+
+print(f'Nimesi on {userName} ja olet {userAge} vuotta vanha!')
