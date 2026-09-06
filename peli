@@ -6,8 +6,9 @@ if userAge >= 12:
     while True:
 
         print(f'Tervetuloa, {userName}!')
-        print('- Kerro kaksi lukua yhteen "kertolasku"\n- Lopettaaksesi kirjoita "lopeta\n10 sekunnin ajastin "ajastin10"')
-
+        komennot = ['- Kerro kaksi lukua yhteen "kertolasku"', '10 sekunnin ajastin "ajastin10"','Lopettaaksesi kirjoita "lopeta"']
+        for i in komennot:
+            print(i)
 
         command = input('Anna komento:\n')
 
