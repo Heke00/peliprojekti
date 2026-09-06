@@ -1,4 +1,48 @@
 userName = input('Mikä sinun nimesi on? :\n')
-userAge = input('Kuinka vanha olet? :\n')
+userAge = int(input('Kuinka vanha olet? :\n'))
 
-print(f'Nimesi on {userName} ja olet {userAge} vuotta vanha!')
+if userAge >= 12:
+    print(f'Nimesi on {userName} ja olet {userAge} vuotta vanha!')
+    while True:
+
+        print(f'Tervetuloa, {userName}!')
+        print('- Kerro kaksi lukua yhteen "kertolasku"\n- Lopettaaksesi kirjoita "lopeta\n10 sekunnin ajastin "ajastin10"')
+
+
+        command = input('Anna komento:\n')
+
+        if command == 'lopeta':
+            print('suljetaan...')
+            break
+        elif command == 'kertolasku':
+            numero1 = int(input('Anna numero: '))
+            numero2 = int(input('Anna toinen numero: '))
+            print(f'{numero1} * {numero2}: {numero1 * numero2}')
+        elif command == 'ajastin10':
+            import time
+            print('10')
+            time.sleep(1)
+            print('9')
+            time.sleep(1)
+            print('8')
+            time.sleep(1)
+            print('7')
+            time.sleep(1)
+            print('6')
+            time.sleep(1)
+            print('5')
+            time.sleep(1)
+            print('4')
+            time.sleep(1)
+            print('3')
+            time.sleep(1)
+            print('2')
+            time.sleep(1)
+            print('1')
+            time.sleep(1)
+            print('0')
+            print('Hälytys! 🔔🔔🔔🔔')
+            
+else:
+    print('Olet liian nuori käyttämään tätä ohjelmaa. Hei hei!')
+
