@@ -1,49 +1,71 @@
 userName = input('Mikä sinun nimesi on? :\n')
 userAge = int(input('Kuinka vanha olet? :\n'))
 
+reppu = []
+
+def flopeta():
+    print('suljetaan...')
+
+def fkertolasku():
+    numero1 = int(input('Anna numero: '))
+    numero2 = int(input('Anna toinen numero: '))
+    print(f'{numero1} * {numero2}: {numero1 * numero2}')
+
+def fajastin10():
+    import time
+    print('10')
+    time.sleep(1)
+    print('9')
+    time.sleep(1)
+    print('8')
+    time.sleep(1)
+    print('7')
+    time.sleep(1)
+    print('6')
+    time.sleep(1)
+    print('5')
+    time.sleep(1)
+    print('4')
+    time.sleep(1)
+    print('3')
+    time.sleep(1)
+    print('2')
+    time.sleep(1)
+    print('1')
+    time.sleep(1)
+    print('0')
+    print('Hälytys! 🔔🔔🔔🔔')
+
+def ftavara():
+    i = input('Kirjoita mitävaan, se lisätään reppuusi!')
+    reppu.append(i)
+
+def freppulist():
+    print(reppu)
+
+
 if userAge >= 12:
     print(f'Nimesi on {userName} ja olet {userAge} vuotta vanha!')
     while True:
 
         print(f'Tervetuloa, {userName}!')
-        komennot = ['- Kerro kaksi lukua yhteen "kertolasku"', '10 sekunnin ajastin "ajastin10"','Lopettaaksesi kirjoita "lopeta"']
+        komennot = ['- Kerro kaksi lukua yhteen "kertolasku"', '10 sekunnin ajastin "ajastin10"','Lopettaaksesi kirjoita "lopeta"', 'Lisää tavra reppuun "tavara"', 'kerro repun sisältö "reppulist"']
         for i in komennot:
             print(i)
 
         command = input('Anna komento:\n')
 
         if command == 'lopeta':
-            print('suljetaan...')
+            flopeta()
             break
         elif command == 'kertolasku':
-            numero1 = int(input('Anna numero: '))
-            numero2 = int(input('Anna toinen numero: '))
-            print(f'{numero1} * {numero2}: {numero1 * numero2}')
+            fkertolasku()
         elif command == 'ajastin10':
-            import time
-            print('10')
-            time.sleep(1)
-            print('9')
-            time.sleep(1)
-            print('8')
-            time.sleep(1)
-            print('7')
-            time.sleep(1)
-            print('6')
-            time.sleep(1)
-            print('5')
-            time.sleep(1)
-            print('4')
-            time.sleep(1)
-            print('3')
-            time.sleep(1)
-            print('2')
-            time.sleep(1)
-            print('1')
-            time.sleep(1)
-            print('0')
-            print('Hälytys! 🔔🔔🔔🔔')
-            
+            fajastin10()
+        elif command == 'tavara':
+            ftavara()
+        elif command == 'reppulist':
+            freppulist()
 else:
     print('Olet liian nuori käyttämään tätä ohjelmaa. Hei hei!')
 
