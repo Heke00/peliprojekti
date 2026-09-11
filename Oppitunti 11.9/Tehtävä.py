@@ -16,6 +16,10 @@ students = [
     {"name": "Aino", "age": 14, "grade": "10"},
 ]
 
-for i in students:
-    print(f'{i['name']} on {i['age']} vuotta vanha ja hänen arvosanansa on {i['grade']}')
+# for i in students:
+#     print(f'{i['name']} on {i['age']} vuotta vanha ja hänen arvosanansa on {i['grade']}')
+
+
+# i = students[2]
+# print(f'{i['name']} on {i['age']} vuotta vanha ja hänen arvosanansa on {i['grade']}')
 
