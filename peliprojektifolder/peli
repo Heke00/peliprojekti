@@ -41,7 +41,7 @@ def ftavara():
     reppu.append(i)
 
 def freppulist():
-    print(reppu)
+    print(f'\n{reppu}\n')
 
 
 if userAge >= 12:
