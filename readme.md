@@ -1,4 +1,4 @@
-# Hauska peli
+# peliprojekti
 
 Heikki Lyly
 
