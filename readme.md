@@ -9,3 +9,6 @@ Heikki Lyly
 
 10.9
 - tein luku 7. funktio tehtävät eli tein komennoista funktiot sekä lisäsin funktiot "tavara" ja "reppulist". Niillä voi lisätä kirjoittamansa stringin listaan reppu
+
+30.9
+- Palautettu mod8, 9 ja vähän muutakin

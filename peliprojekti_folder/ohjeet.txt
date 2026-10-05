@@ -1,0 +1,16 @@
+==================================================
+OHJEET
+
+Keybinds:
+
+1 = Katso huonetta
+2 = Kerää esine
+3 = Liiku
+4 = Katso reppua
+5 = Kuka olen
+6 = Avaa etuovi
+7 = Lopeta & tallenna
+
+Olet pakohuoneessa. Voit liikkua eri huoneissa, tutkia niitä ja kerätä esineitä.
+
+==================================================

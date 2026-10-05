@@ -1,0 +1,14 @@
+==================================================
+                    Tervetuloa
+
+            Peliprojekti by Heikki Lyly
+==================================================
+
+Tässä pelissä:                                     
+- Olet pakohuoneessa                               
+- Etsit avainta                                    
+- Tavoite on päästä ulos etuovesta                  
+                                                             
+Simppeli idea ja toteutus, mutta tämä on ensimmäinen projektini!
+                   
+Onnea matkaan!                                                                         

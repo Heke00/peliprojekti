@@ -1,0 +1,12 @@
+HeikkiIIIIIIiiI
+Kellari
+REPPU
+Avain
+HUONEET
+Keittiö:None
+Olohuone:Paristo
+Makuuhuone:Kirja
+Eteinen:None
+Vessa:None
+Kellari:Taskulamppu
+Työhuone:Suurennuslasi
